@@ -1,0 +1,151 @@
+<div class="p-card">
+  <div class="card-header sm:flex justify-content-between p-3">
+    <h1 class="m-0">Sesiones</h1>
+  </div>
+
+  <p-table
+    [value]="sesiones"
+    responsiveLayout="stack"
+    selectionMode="single"
+    [(selection)]="sesionSelected"
+    dataKey="id"
+  >
+    <ng-template pTemplate="caption">
+      <div style="margin: -0.75rem 0">
+        <p-toolbar class="toolbar-in-card">
+          <div class="p-toolbar-group-start">
+            <p-button
+              label="Nueva Sesión"
+              icon="pi pi-plus-circle"
+              class="mr-2"
+              styleClass="p-button-danger p-button-sm"
+              [routerLink]="['agregar']"
+            ></p-button>
+
+            <p-button
+              label="Iniciar"
+              icon="pi pi-play"
+              class="mr-2"
+              styleClass="p-button-danger p-button-sm"
+              *ngIf="sesionSelected && sesionSelected.estado?.id != 2"
+              (click)="cambiarEstadoSesion(2)"
+            ></p-button>
+
+            <p-button
+              label="Finalizar"
+              icon="pi pi-stop"
+              class="mr-2"
+              styleClass="p-button-danger p-button-sm"
+              *ngIf="sesionSelected && sesionSelected.estado?.id == 2"
+              (click)="cambiarEstadoSesion(5)"
+            ></p-button>
+
+            <p-button
+              label="Suspender"
+              icon="pi pi-pause"
+              class="mr-2"
+              styleClass="p-button-danger p-button-sm"
+              *ngIf="sesionSelected && sesionSelected.estado?.id == 2"
+              (click)="cambiarEstadoSesion(4)"
+            ></p-button>
+          </div>
+          <div class="p-toolbar-group-end align-items-stretch">
+            <div class="p-inputgroup">
+              <input
+                type="text"
+                pInputText
+                placeholder="Buscar"
+                class="p-inputtext-sm"
+              />
+              <button
+                type="button"
+                pButton
+                icon="pi pi-search"
+                class="p-button-sm"
+              ></button>
+            </div>
+
+            <button
+              type="button"
+              pButton
+              icon="pi pi-filter-fill"
+              class="p-button-sm ml-2"
+            ></button>
+          </div>
+        </p-toolbar>
+
+        <filter-bar
+          *ngIf="filters.length > 0"
+          class="block"
+          style="margin: 0 -0.75rem"
+          [(filters)]="filters"
+        ></filter-bar>
+      </div>
+    </ng-template>
+    <ng-template pTemplate="header">
+      <tr>
+        <th>Titulo</th>
+        <th>Inicio</th>
+        <th>Fin</th>
+        <th>Estado</th>
+        <th>Opciones</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-item>
+      <tr
+        [pSelectableRow]="item"
+        (contextmenu)="
+          rowMenu.hide(); itemActive = item; rowContextMenu.toggle($event)
+        "
+      >
+        <td>
+          <span class="p-column-title">Titulo</span>
+          <div class="inline-block">
+            <a [routerLink]="[item.id, 'ver']">{{ item.titulo }}</a>
+
+            <p-badge
+              *ngIf="item.esPrueba"
+              value="Prueba"
+              severity="danger"
+              styleClass="ml-2"
+            ></p-badge>
+          </div>
+        </td>
+        <td>
+          <span class="p-column-title">Inicio</span
+          >{{ item.fechaInicio | date : "dd/MM/yyyy" }}
+        </td>
+        <td>
+          <span class="p-column-title">Fin</span
+          >{{ item.fechaFin | date : "dd/MM/yyyy" }}
+        </td>
+        <td>
+          <span class="p-column-title">Estado</span
+          >{{ item.estado.description }}
+        </td>
+        <td>
+          <span class="p-column-title">Opciones</span
+          ><p-button
+            icon="pi pi-ellipsis-v"
+            styleClass="p-button-text p-button-sm"
+            (click)="
+              rowContextMenu.hide(); itemActive = item; rowMenu.toggle($event)
+            "
+          ></p-button>
+        </td>
+      </tr>
+    </ng-template>
+
+    <ng-template pTemplate="emptymessage">
+      <tr>
+        <td colspan="7">No se encontraron resultados</td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
+<p-menu #rowMenu [model]="menuItems" [popup]="true" appendTo="body"></p-menu>
+<p-contextMenu
+  #rowContextMenu
+  [model]="menuItems"
+  appendTo="body"
+></p-contextMenu>

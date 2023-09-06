@@ -1,0 +1,79 @@
+<p-fieldset legend="Filtro Asistencia y Votación" [toggleable]="true" styleClass="mb-3">
+  <div class="">
+    <div class="grid mt-1">
+      <div class="col-12 lg:col-6 xl:col-2">
+        <span class="p-float-label">
+          <p-calendar [(ngModel)]="fechaInicio" [showIcon]="true" id="fechaInicioId"></p-calendar>
+          <label for="fechaInicioId">Fecha Inicio</label>
+        </span>
+      </div>
+      <div class="col-12 lg:col-6 xl:col-2">
+        <span class="p-float-label">
+          <p-calendar [(ngModel)]="fechaFin" [showIcon]="true" id="fechaFinId" [maxDate]="fechaFin"></p-calendar>
+          <label for="fechaFinId">Fecha Fin</label>
+        </span>
+      </div>
+      <div class="col-12 lg:col-6 xl:col-4">
+            <span class="p-float-label">
+              <p-dropdown
+                [options]="sesiones"
+                optionLabel="description"
+                styleClass="w-full"
+                appendTo="body"
+                id="sesionId"
+              ></p-dropdown>
+
+              <label for="sesionId">Sesion</label>
+            </span>
+      </div>
+
+      <div class="col-12 lg:col-6 xl:col-4">
+            <span class="p-float-label">
+              <p-dropdown
+                [options]="temas"
+                optionLabel="description"
+                styleClass="w-full"
+                appendTo="body"
+                id="temaId"
+              ></p-dropdown>
+
+              <label for="temaId">Temas</label>
+            </span>
+      </div>
+
+
+    </div>
+    <div class="flex  justify-content-end">
+
+      <p-button label="Limpiar Filtros" icon="pi pi-filter-slash" styleClass="p-button p-button-outlined p-button-danger" ></p-button>
+      &nbsp;&nbsp;
+      <p-button label="Buscar" (onClick)="cargarReportes()" icon="pi pi-search" styleClass="p-button p-button-danger" ></p-button>
+    </div>
+
+  </div>
+</p-fieldset>
+
+<p-tabView>
+  <p-tabPanel header="Reporte de Asistencia">
+      <ssrs-reportviewer *ngIf="visualizarReporte"
+        [reportserver]="reportServer"
+        [reporturl]="reportUrl"
+        [showparameters]="showParameters"
+        [parameters]="parameters"
+        [language]="language"
+        [width] ="width"
+        [height]="height"
+        [toolbar]="toolbar">
+      </ssrs-reportviewer>
+  </p-tabPanel>
+  <p-tabPanel header="Reporte de Votación">
+    <p>
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+      ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Consectetur, adipisci velit, sed quia non numquam eius modi.
+    </p>
+  </p-tabPanel>
+</p-tabView>
+
+
+
+

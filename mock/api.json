@@ -1,0 +1,1836 @@
+{
+  "periodos": [
+    {
+      "description": "Periodo Parlamentario 2021-2026",
+      "id": 2021
+    },
+    {
+      "description": "Periodo Parlamentario 2016-2021",
+      "id": 2016
+    }
+  ],
+  "legislaturas": [
+    {
+      "perParId": 2021,
+      "perLegId": 2025,
+      "legislaturaId": 20252,
+      "tipoLegId": 1,
+      "desLegis": "Segunda Legislatura Ordinaria 2025-2026",
+      "fechaInicio": "2026-03-01 00:00:00",
+      "fechaFin": "2026-07-26 00:00:00",
+      "desAbrLegis": "2da. L.O. 2025"
+    },
+    {
+      "perParId": 2021,
+      "perLegId": 2025,
+      "legislaturaId": 20251,
+      "tipoLegId": 1,
+      "desLegis": "Primera Legislatura Ordinaria 2025-2026",
+      "fechaInicio": "2025-07-27 00:00:00",
+      "fechaFin": "2026-02-28 00:00:00",
+      "desAbrLegis": "1ra. L.O. 2025"
+    },
+    {
+      "perParId": 2021,
+      "perLegId": 2024,
+      "legislaturaId": 20242,
+      "tipoLegId": 1,
+      "desLegis": "Segunda Legislatura Ordinaria 2024-2025",
+      "fechaInicio": "2025-03-01 00:00:00",
+      "fechaFin": "2025-07-26 00:00:00",
+      "desAbrLegis": "2da. L.O. 2024"
+    },
+    {
+      "perParId": 2021,
+      "perLegId": 2024,
+      "legislaturaId": 20241,
+      "tipoLegId": 1,
+      "desLegis": "Primera Legislatura Ordinaria 2024-2025",
+      "fechaInicio": "2024-07-27 00:00:00",
+      "fechaFin": "2025-02-28 00:00:00",
+      "desAbrLegis": "1ra. L.O. 2024"
+    },
+    {
+      "perParId": 2021,
+      "perLegId": 2023,
+      "legislaturaId": 20232,
+      "tipoLegId": 1,
+      "desLegis": "Segunda Legislatura Ordinaria 2023-2024",
+      "fechaInicio": "2024-03-01 00:00:00",
+      "fechaFin": "2024-07-26 00:00:00",
+      "desAbrLegis": "2da. L.O. 2023"
+    },
+    {
+      "perParId": 2021,
+      "perLegId": 2023,
+      "legislaturaId": 20231,
+      "tipoLegId": 1,
+      "desLegis": "Primera Legislatura Ordinaria 2023-2024",
+      "fechaInicio": "2023-07-27 00:00:00",
+      "fechaFin": "2024-02-29 00:00:00",
+      "desAbrLegis": "1ra. L.O. 2023"
+    },
+    {
+      "perParId": 2021,
+      "perLegId": 2022,
+      "legislaturaId": 20222,
+      "tipoLegId": 1,
+      "desLegis": "Segunda Legislatura Ordinaria 2022-2023",
+      "fechaInicio": "2023-03-01 00:00:00",
+      "fechaFin": "2023-07-26 00:00:00",
+      "desAbrLegis": "2da. L.O. 2022"
+    },
+    {
+      "perParId": 2021,
+      "perLegId": 2022,
+      "legislaturaId": 20221,
+      "tipoLegId": 1,
+      "desLegis": "Primera Legislatura Ordinaria 2022-2023",
+      "fechaInicio": "2022-07-27 00:00:00",
+      "fechaFin": "2023-02-28 00:00:00",
+      "desAbrLegis": "1ra. L.O. 2022"
+    },
+    {
+      "perParId": 2021,
+      "perLegId": 2021,
+      "legislaturaId": 20212,
+      "tipoLegId": 1,
+      "desLegis": "Segunda Legislatura Ordinaria 2021-2022",
+      "fechaInicio": "2022-03-01 00:00:00",
+      "fechaFin": "2022-07-26 00:00:00",
+      "desAbrLegis": "2da. L.O. 2021"
+    },
+    {
+      "perParId": 2021,
+      "perLegId": 2021,
+      "legislaturaId": 20211,
+      "tipoLegId": 1,
+      "desLegis": "Primera Legislatura Ordinaria 2021-2022",
+      "fechaInicio": "2021-07-22 00:00:00",
+      "fechaFin": "2022-02-28 00:00:00",
+      "desAbrLegis": "1ra. L.O. 2021"
+    }
+  ],
+  "tipo-sesion": [
+    {
+      "description": "Sesión del pleno",
+      "id": 1
+    },
+    {
+      "description": "Sesión de la comisión permanente",
+      "id": 2
+    }
+  ],
+  "modalidades": [
+    {
+      "description": "Presencial",
+      "id": 1
+    },
+    {
+      "description": "Virtual",
+      "id": 2
+    },
+    {
+      "description": "Mixto",
+      "id": 3
+    }
+  ],
+  "horarios": [
+    {
+      "description": "Matutino",
+      "id": 1
+    },
+    {
+      "description": "Vespertino",
+      "id": 2
+    }
+  ],
+  "estado-sesion": [
+    {
+      "description": "Registrado",
+      "id": 1
+    },
+    {
+      "description": "Iniciado",
+      "id": 2
+    },
+    {
+      "description": "Con Asistencia Diaria",
+      "id": 3
+    },
+    {
+      "description": "Suspendido",
+      "id": 4
+    },
+    {
+      "description": "Cerrado",
+      "id": 5
+    }
+  ],
+  "sesiones": [
+    {
+      "periodoParlamentario": {
+        "description": "Periodo Parlamentario 2021-2026",
+        "id": 2021
+      },
+      "legislatura": {
+        "id": 20252,
+        "description": "Segunda Legislatura Ordinaria 2025"
+      },
+      "tipoSesion": {
+        "description": "Sesión del pleno",
+        "id": 1
+      },
+      "modalidad": {
+        "description": "Presencial",
+        "id": 1
+      },
+      "horario": {
+        "description": "Matutino",
+        "id": 1
+      },
+      "titulo": "sesion de prueba d",
+      "fechaInicio": "2023-08-05T20:13:41.000Z",
+      "esPrueba": true,
+      "estado": {
+        "description": "Iniciado",
+        "id": 2
+      },
+      "agendasVinculadas": [
+        {
+          "description": "Sesión del martes 20 de junio de 2023",
+          "date": "20/06/2023",
+          "id": 1
+        },
+        {
+          "description": "Sesión del miércoles 21 de junio de 2023",
+          "date": "21/06/2023",
+          "id": 2
+        }
+      ],
+      "id": 4
+    },
+    {
+      "periodoParlamentario": {
+        "description": "Periodo Parlamentario 2021-2026",
+        "id": 2021
+      },
+      "legislatura": {
+        "id": 20252,
+        "description": "Segunda Legislatura Ordinaria 2025"
+      },
+      "tipoSesion": {
+        "description": "Sesión del pleno",
+        "id": 1
+      },
+      "modalidad": {
+        "description": "Presencial",
+        "id": 1
+      },
+      "horario": {
+        "description": "Matutino",
+        "id": 1
+      },
+      "titulo": "sss",
+      "fechaInicio": "2023-08-04T20:36:48.000Z",
+      "esPrueba": true,
+      "estado": {
+        "description": "Cerrado",
+        "id": 5
+      },
+      "agendasVinculadas": [
+        {
+          "description": "Sesión del miércoles 21 de junio de 2023",
+          "date": "21/06/2023",
+          "id": 2
+        }
+      ],
+      "id": 5
+    },
+    {
+      "periodoParlamentario": {
+        "description": "Periodo Parlamentario 2021-2026",
+        "id": 2021
+      },
+      "legislatura": {
+        "id": 20252,
+        "description": "Segunda Legislatura Ordinaria 2025"
+      },
+      "tipoSesion": {
+        "description": "Sesión del pleno",
+        "id": 1
+      },
+      "modalidad": {
+        "description": "Presencial",
+        "id": 1
+      },
+      "horario": {
+        "description": "Matutino",
+        "id": 1
+      },
+      "titulo": "dfsdf",
+      "fechaInicio": "2023-08-04T20:53:57.000Z",
+      "esPrueba": true,
+      "estado": {
+        "description": "Suspendido",
+        "id": 4
+      },
+      "agendasVinculadas": [
+        {
+          "description": "Sesión del martes 20 de junio de 2023",
+          "date": "20/06/2023",
+          "id": 1
+        }
+      ],
+      "id": 6
+    },
+    {
+      "periodoParlamentario": {
+        "description": "Periodo Parlamentario 2021-2026",
+        "id": 2021
+      },
+      "legislatura": {
+        "id": 20232,
+        "description": "Segunda Legislatura Ordinaria 2023"
+      },
+      "tipoSesion": {
+        "description": "Sesión del pleno",
+        "id": 1
+      },
+      "modalidad": {
+        "description": "Mixto",
+        "id": 3
+      },
+      "horario": {
+        "description": "Matutino",
+        "id": 1
+      },
+      "titulo": "Sesion 18 de agosto del 2023",
+      "fechaInicio": "2023-08-11T17:20:21.000Z",
+      "esPrueba": false,
+      "estado": {
+        "description": "Cerrado",
+        "id": 5
+      },
+      "agendasVinculadas": [
+        {
+          "description": "Sesión del jueves 22 de junio de 2023",
+          "date": "22/06/2023",
+          "id": 3
+        }
+      ],
+      "id": 7
+    },
+    {
+      "periodoParlamentario": {
+        "description": "Periodo Parlamentario 2021-2026",
+        "id": 2021
+      },
+      "legislatura": {
+        "id": 20252,
+        "description": "Segunda Legislatura Ordinaria 2025-2026"
+      },
+      "tipoSesion": {
+        "description": "Sesión del pleno",
+        "id": 1
+      },
+      "modalidad": {
+        "description": "Presencial",
+        "id": 1
+      },
+      "horario": {
+        "description": "Matutino",
+        "id": 1
+      },
+      "titulo": "fsdf",
+      "fechaInicio": "2023-09-01T14:55:39.000Z",
+      "esPrueba": null,
+      "estado": {
+        "description": "Iniciado",
+        "id": 2
+      },
+      "agendasVinculadas": [
+        {
+          "description": "Sesión del viernes 23 de junio de 2023",
+          "date": "23/06/2023",
+          "id": 4
+        }
+      ],
+      "id": 8
+    }
+  ],
+  "agendas": [
+    {
+      "description": "Sesión del martes 20 de junio de 2023",
+      "date": "20/06/2023",
+      "id": 1
+    },
+    {
+      "description": "Sesión del miércoles 21 de junio de 2023",
+      "date": "21/06/2023",
+      "id": 2
+    },
+    {
+      "description": "Sesión del jueves 22 de junio de 2023",
+      "date": "22/06/2023",
+      "id": 3
+    },
+    {
+      "description": "Sesión del viernes 23 de junio de 2023",
+      "date": "23/06/2023",
+      "id": 4
+    },
+    {
+      "description": "Sesión del sábado 24 de junio de 2023",
+      "date": "24/06/2023",
+      "id": 5
+    },
+    {
+      "description": "Sesión del lunes 26 de junio de 2023",
+      "date": "25/06/2023",
+      "id": 6
+    },
+    {
+      "description": "Sesión del martes 27 de junio de 2023",
+      "date": "27/06/2023",
+      "id": 7
+    },
+    {
+      "description": "Sesión del miércoles 28 de junio de 2023",
+      "date": "28/06/2023",
+      "id": 8
+    },
+    {
+      "description": "Sesión del jueves 29 de junio de 2023",
+      "date": "29/06/2023",
+      "id": 9
+    },
+    {
+      "description": "Sesión del viernes 30 de junio de 2023",
+      "date": "30/06/2023",
+      "id": 10
+    }
+  ],
+  "licencias": [],
+  "congresistas": [
+    {
+      "congresistaId": 1,
+      "dni": "16751831",
+      "nombre": "Acuña Peralta, María Grimaneza",
+      "nombreAbr": "M.Acuña",
+      "sexo": "F",
+      "grupoPoliticoId": 2,
+      "grupoParlamentarioId": 2,
+      "desGpar": "Alianza Para el Progreso",
+      "activo": true
+    },
+    {
+      "congresistaId": 2,
+      "dni": "18099367",
+      "nombre": "Acuña Peralta, Segundo Héctor",
+      "nombreAbr": "S.Acuña",
+      "sexo": "M",
+      "grupoPoliticoId": 2,
+      "grupoParlamentarioId": 8,
+      "desGpar": "No Agrupados",
+      "activo": true
+    },
+    {
+      "congresistaId": 3,
+      "dni": "06354697",
+      "nombre": "Agüero Gutiérrez, María Antonieta",
+      "nombreAbr": "M.Agüero",
+      "sexo": "F",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 4,
+      "dni": "08236035",
+      "nombre": "Aguinaga Recuenco, Alejandro Aurelio",
+      "nombreAbr": "A.Aguinaga",
+      "sexo": "M",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 5,
+      "dni": "10485497",
+      "nombre": "Alcarraz Agüero, Yorel Kira",
+      "nombreAbr": "Y.Alcarraz",
+      "sexo": "F",
+      "grupoPoliticoId": 11,
+      "grupoParlamentarioId": 18,
+      "desGpar": "Podemos Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 6,
+      "dni": "45382589",
+      "nombre": "Alegría García, Arturo",
+      "nombreAbr": "A.Alegría",
+      "sexo": "M",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 7,
+      "dni": "08271323",
+      "nombre": "Alva Prieto, María del Carmen",
+      "nombreAbr": "M.Alva",
+      "sexo": "F",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 1,
+      "desGpar": "Acción Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 8,
+      "dni": "18099931",
+      "nombre": "Alva Rojas, Carlos Enrique",
+      "nombreAbr": "C.Alva",
+      "sexo": "M",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 1,
+      "desGpar": "Acción Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 9,
+      "dni": "44756974",
+      "nombre": "Amuruz Dulanto, Yessica Rosselli",
+      "nombreAbr": "Y.Amuruz",
+      "sexo": "F",
+      "grupoPoliticoId": 13,
+      "grupoParlamentarioId": 30,
+      "desGpar": "Avanza País - Partido de Integración Social",
+      "activo": true
+    },
+    {
+      "congresistaId": 10,
+      "dni": "06522159",
+      "nombre": "Anderson Ramírez, Carlos Antonio",
+      "nombreAbr": "C.Anderson",
+      "sexo": "M",
+      "grupoPoliticoId": 10,
+      "grupoParlamentarioId": 8,
+      "desGpar": "No Agrupados",
+      "activo": true
+    },
+    {
+      "congresistaId": 11,
+      "dni": "23977149",
+      "nombre": "Aragón Carreño, Luis Ángel",
+      "nombreAbr": "L.Aragón",
+      "sexo": "M",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 1,
+      "desGpar": "Acción Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 12,
+      "dni": "25542661",
+      "nombre": "Arriola Tueros, José Alberto",
+      "nombreAbr": "J.Arriola",
+      "sexo": "M",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 1,
+      "desGpar": "Acción Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 13,
+      "dni": "44306903",
+      "nombre": "Azurín Loayza, Alfredo",
+      "nombreAbr": "A.Azurín",
+      "sexo": "M",
+      "grupoPoliticoId": 11,
+      "grupoParlamentarioId": 19,
+      "desGpar": "Somos Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 14,
+      "dni": "16642438",
+      "nombre": "Balcázar Zelada, José María",
+      "nombreAbr": "J.Balcázar",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 35,
+      "desGpar": "Perú Bicentenario",
+      "activo": true
+    },
+    {
+      "congresistaId": 15,
+      "dni": "76030152",
+      "nombre": "Barbarán Reyes, Rosangella Andrea",
+      "nombreAbr": "R.Barbaran",
+      "sexo": "F",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 16,
+      "dni": "46847115",
+      "nombre": "Bazán Calderón, Diego Alonso Fernando",
+      "nombreAbr": "D.Bazán",
+      "sexo": "M",
+      "grupoPoliticoId": 16,
+      "grupoParlamentarioId": 30,
+      "desGpar": "Avanza País - Partido de Integración Social",
+      "activo": true
+    },
+    {
+      "congresistaId": 17,
+      "dni": "72200895",
+      "nombre": "Bazán Narro, Sigrid Tesoro",
+      "nombreAbr": "S.Bazán",
+      "sexo": "F",
+      "grupoPoliticoId": 14,
+      "grupoParlamentarioId": 33,
+      "desGpar": "Cambio Democrático - Juntos por el Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 18,
+      "dni": "44649199",
+      "nombre": "Bellido Ugarte, Guido",
+      "nombreAbr": "G.Bellido",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 35,
+      "desGpar": "Perú Bicentenario",
+      "activo": true
+    },
+    {
+      "congresistaId": 19,
+      "dni": "07638265",
+      "nombre": "Bermejo Rojas, Guillermo",
+      "nombreAbr": "G.Bermejo",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 33,
+      "desGpar": "Cambio Democrático - Juntos por el Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 20,
+      "dni": "18080185",
+      "nombre": "Burgos Oliveros, Juan Bartolomé",
+      "nombreAbr": "J.Burgos",
+      "sexo": "M",
+      "grupoPoliticoId": 13,
+      "grupoParlamentarioId": 8,
+      "desGpar": "No Agrupados",
+      "activo": true
+    },
+    {
+      "congresistaId": 21,
+      "dni": "08232920",
+      "nombre": "Bustamante Donayre, Carlos Ernesto",
+      "nombreAbr": "C.Bustamante",
+      "sexo": "M",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 22,
+      "dni": "28300174",
+      "nombre": "Calle Lobatón, Digna",
+      "nombreAbr": "D.Calle",
+      "sexo": "F",
+      "grupoPoliticoId": 10,
+      "grupoParlamentarioId": 18,
+      "desGpar": "Podemos Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 23,
+      "dni": "80143959",
+      "nombre": "Camones Soriano, Lady Mercedes",
+      "nombreAbr": "L.Camones",
+      "sexo": "F",
+      "grupoPoliticoId": 2,
+      "grupoParlamentarioId": 2,
+      "desGpar": "Alianza Para el Progreso",
+      "activo": true
+    },
+    {
+      "congresistaId": 24,
+      "dni": "44807108",
+      "nombre": "Castillo Rivas, Eduardo Enrique",
+      "nombreAbr": "E.Castillo",
+      "sexo": "M",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 25,
+      "dni": "47785498",
+      "nombre": "Cavero Alva, Alejandro Enrique",
+      "nombreAbr": "A.Cavero",
+      "sexo": "M",
+      "grupoPoliticoId": 13,
+      "grupoParlamentarioId": 30,
+      "desGpar": "Avanza País - Partido de Integración Social",
+      "activo": true
+    },
+    {
+      "congresistaId": 26,
+      "dni": "20036514",
+      "nombre": "Cerrón Rojas, Waldemar José",
+      "nombreAbr": "W.Cerrón",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 27,
+      "dni": "32971154",
+      "nombre": "Chacón Trujillo, Nilza Merly",
+      "nombreAbr": "N.Chacon",
+      "sexo": "F",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 29,
+      "dni": "40728264",
+      "nombre": "Chiabra León, Roberto Enrique",
+      "nombreAbr": "R.Chiabra",
+      "sexo": "M",
+      "grupoPoliticoId": 2,
+      "grupoParlamentarioId": 2,
+      "desGpar": "Alianza Para el Progreso",
+      "activo": true
+    },
+    {
+      "congresistaId": 30,
+      "dni": "10280036",
+      "nombre": "Chirinos Venegas, Patricia Rosa",
+      "nombreAbr": "P.Chirinos",
+      "sexo": "F",
+      "grupoPoliticoId": 13,
+      "grupoParlamentarioId": 30,
+      "desGpar": "Avanza País - Partido de Integración Social",
+      "activo": true
+    },
+    {
+      "congresistaId": 31,
+      "dni": "06049853",
+      "nombre": "Ciccia Vásquez, Miguel Ángel",
+      "nombreAbr": "M.Ciccia",
+      "sexo": "M",
+      "grupoPoliticoId": 16,
+      "grupoParlamentarioId": 28,
+      "desGpar": "Renovación Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 32,
+      "dni": "04413969",
+      "nombre": "Coayla Juárez, Jorge Samuel",
+      "nombreAbr": "J.Coayla",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 35,
+      "desGpar": "Perú Bicentenario",
+      "activo": true
+    },
+    {
+      "congresistaId": 33,
+      "dni": "15300817",
+      "nombre": "Cordero Jon Tay, Luis Gustavo",
+      "nombreAbr": "L.Cordero",
+      "sexo": "M",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 34,
+      "dni": "15631864",
+      "nombre": "Cordero Jon Tay, María Del Pilar",
+      "nombreAbr": "M.Cordero",
+      "sexo": "F",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 8,
+      "desGpar": "No Agrupados",
+      "activo": true
+    },
+    {
+      "congresistaId": 35,
+      "dni": "16719182",
+      "nombre": "Córdova Lobatón, María Jessica",
+      "nombreAbr": "M.Córdova",
+      "sexo": "F",
+      "grupoPoliticoId": 16,
+      "grupoParlamentarioId": 30,
+      "desGpar": "Avanza País - Partido de Integración Social",
+      "activo": true
+    },
+    {
+      "congresistaId": 36,
+      "dni": "10129700",
+      "nombre": "Cortez Aguirre, Isabel",
+      "nombreAbr": "I.Cortez",
+      "sexo": "F",
+      "grupoPoliticoId": 14,
+      "grupoParlamentarioId": 33,
+      "desGpar": "Cambio Democrático - Juntos por el Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 37,
+      "dni": "01311614",
+      "nombre": "Cruz Mamani, Flavio",
+      "nombreAbr": "F.Cruz",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 38,
+      "dni": "06783615",
+      "nombre": "Cueto Aservi, José Ernesto",
+      "nombreAbr": "J.Cueto",
+      "sexo": "M",
+      "grupoPoliticoId": 16,
+      "grupoParlamentarioId": 28,
+      "desGpar": "Renovación Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 39,
+      "dni": "04647085",
+      "nombre": "Cutipa Ccama, Víctor Raúl",
+      "nombreAbr": "V.Cutipa",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 35,
+      "desGpar": "Perú Bicentenario",
+      "activo": true
+    },
+    {
+      "congresistaId": 40,
+      "dni": "25700579",
+      "nombre": "Dávila Atanacio, Pasión Neomías",
+      "nombreAbr": "P.Dávila",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 34,
+      "desGpar": "Bloque Magisterial de Concertación Nacional",
+      "activo": true
+    },
+    {
+      "congresistaId": 42,
+      "dni": "22290935",
+      "nombre": "Doroteo Carbajo, Raúl Felipe",
+      "nombreAbr": "R.Doroteo",
+      "sexo": "M",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 1,
+      "desGpar": "Acción Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 43,
+      "dni": "16429203",
+      "nombre": "Echaíz de Núñez Izaga, Gladys Margot",
+      "nombreAbr": "G.Echaíz",
+      "sexo": "F",
+      "grupoPoliticoId": 2,
+      "grupoParlamentarioId": 28,
+      "desGpar": "Renovación Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 44,
+      "dni": "27080597",
+      "nombre": "Echeverría Rodríguez, Hamlet",
+      "nombreAbr": "H.Echeverría",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 33,
+      "desGpar": "Cambio Democrático - Juntos por el Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 46,
+      "dni": "21569935",
+      "nombre": "Elías Ávalos, José Luis",
+      "nombreAbr": "J.Elías",
+      "sexo": "M",
+      "grupoPoliticoId": 10,
+      "grupoParlamentarioId": 18,
+      "desGpar": "Podemos Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 47,
+      "dni": "42572649",
+      "nombre": "Espinoza Vargas, Jhaec Darwin",
+      "nombreAbr": "J.Espinoza",
+      "sexo": "M",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 1,
+      "desGpar": "Acción Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 48,
+      "dni": "01888173",
+      "nombre": "Flores Ancachi, Jorge Luis",
+      "nombreAbr": "J.Flores",
+      "sexo": "M",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 1,
+      "desGpar": "Acción Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 49,
+      "dni": "46517805",
+      "nombre": "Flores Ramírez, Alex Randu",
+      "nombreAbr": "A.Flores",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 50,
+      "dni": "17896798",
+      "nombre": "Flores Ruiz, Víctor Seferino",
+      "nombreAbr": "V.Flores",
+      "sexo": "M",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 52,
+      "dni": "03243625",
+      "nombre": "García Correa, Idelso Manuel",
+      "nombreAbr": "I.García",
+      "sexo": "M",
+      "grupoPoliticoId": 2,
+      "grupoParlamentarioId": 2,
+      "desGpar": "Alianza Para el Progreso",
+      "activo": true
+    },
+    {
+      "congresistaId": 53,
+      "dni": "41187802",
+      "nombre": "Gonza Castillo, Américo",
+      "nombreAbr": "A.Gonza",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 54,
+      "dni": "70546213",
+      "nombre": "Gonzales Delgado, Diana Carolina",
+      "nombreAbr": "D.Gonzáles",
+      "sexo": "F",
+      "grupoPoliticoId": 13,
+      "grupoParlamentarioId": 30,
+      "desGpar": "Avanza País - Partido de Integración Social",
+      "activo": true
+    },
+    {
+      "congresistaId": 51,
+      "dni": "07202572",
+      "nombre": "Guerra García Campos, Hernando",
+      "nombreAbr": "H.Garcia",
+      "sexo": "M",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 55,
+      "dni": "31027035",
+      "nombre": "Gutiérrez Ticona, Paul Silvio",
+      "nombreAbr": "P.Gutiérrez",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 34,
+      "desGpar": "Bloque Magisterial de Concertación Nacional",
+      "activo": true
+    },
+    {
+      "congresistaId": 132,
+      "dni": "10491661",
+      "nombre": "Heidinger Ballesteros, Nelcy Lidia",
+      "nombreAbr": "N.Heidinger",
+      "sexo": "F",
+      "grupoPoliticoId": 2,
+      "grupoParlamentarioId": 2,
+      "desGpar": "Alianza Para el Progreso",
+      "activo": true
+    },
+    {
+      "congresistaId": 57,
+      "dni": "42846124",
+      "nombre": "Herrera Medina, Noelia Rossvith",
+      "nombreAbr": "N.Herrera",
+      "sexo": "F",
+      "grupoPoliticoId": 16,
+      "grupoParlamentarioId": 28,
+      "desGpar": "Renovación Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 58,
+      "dni": "21564196",
+      "nombre": "Huamán Coronado, Raúl",
+      "nombreAbr": "R.Huamán",
+      "sexo": "M",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 59,
+      "dni": "16448130",
+      "nombre": "Infantes Castañeda, Mery Eliana",
+      "nombreAbr": "M.Infantes",
+      "sexo": "F",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 60,
+      "dni": "07852432",
+      "nombre": "Jáuregui Martínez de Aguayo, María de los Milagros Jackeline",
+      "nombreAbr": "M.Jáuregui",
+      "sexo": "F",
+      "grupoPoliticoId": 16,
+      "grupoParlamentarioId": 28,
+      "desGpar": "Renovación Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 61,
+      "dni": "44103082",
+      "nombre": "Jerí Oré, José Enrique",
+      "nombreAbr": "J.Jerí",
+      "sexo": "M",
+      "grupoPoliticoId": 11,
+      "grupoParlamentarioId": 19,
+      "desGpar": "Somos Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 62,
+      "dni": "19994639",
+      "nombre": "Jiménez Heredia, David Julio",
+      "nombreAbr": "D.Jiménez",
+      "sexo": "M",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 63,
+      "dni": "42335591",
+      "nombre": "Juárez Calle, Heidy Lisbeth",
+      "nombreAbr": "H.Juárez",
+      "sexo": "F",
+      "grupoPoliticoId": 2,
+      "grupoParlamentarioId": 18,
+      "desGpar": "Podemos Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 64,
+      "dni": "07831436",
+      "nombre": "Juárez Gallegos, Carmen Patricia",
+      "nombreAbr": "C.Juarez",
+      "sexo": "F",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 65,
+      "dni": "46130369",
+      "nombre": "Julón Irigoín, Elva Edhit",
+      "nombreAbr": "E.Julon",
+      "sexo": "F",
+      "grupoPoliticoId": 2,
+      "grupoParlamentarioId": 2,
+      "desGpar": "Alianza Para el Progreso",
+      "activo": true
+    },
+    {
+      "congresistaId": 66,
+      "dni": "10804834",
+      "nombre": "Kamiche Morante, Luis Roberto",
+      "nombreAbr": "L.Kamiche",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 33,
+      "desGpar": "Cambio Democrático - Juntos por el Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 131,
+      "dni": "41258762",
+      "nombre": "Limachi Quispe, Nieves Esmeralda",
+      "nombreAbr": "N.Limachi",
+      "sexo": "F",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 33,
+      "desGpar": "Cambio Democrático - Juntos por el Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 67,
+      "dni": "09303945",
+      "nombre": "Lizarzaburu Lizarzaburu, Juan Carlos Martin",
+      "nombreAbr": "J.Lizarzaburu",
+      "sexo": "M",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 68,
+      "dni": "09980339",
+      "nombre": "López Morales, Jeny Luz",
+      "nombreAbr": "J.Lopez",
+      "sexo": "F",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 69,
+      "dni": "42834886",
+      "nombre": "López Ureña, Ilich Fredy",
+      "nombreAbr": "I.López",
+      "sexo": "M",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 1,
+      "desGpar": "Acción Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 70,
+      "dni": "07246887",
+      "nombre": "Luna Gálvez, José León",
+      "nombreAbr": "J.luna",
+      "sexo": "M",
+      "grupoPoliticoId": 10,
+      "grupoParlamentarioId": 18,
+      "desGpar": "Podemos Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 71,
+      "dni": "40204874",
+      "nombre": "Luque Ibarra, Ruth",
+      "nombreAbr": "R.Luque",
+      "sexo": "F",
+      "grupoPoliticoId": 14,
+      "grupoParlamentarioId": 33,
+      "desGpar": "Cambio Democrático - Juntos por el Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 72,
+      "dni": "09303898",
+      "nombre": "Málaga Trillo, George Edward",
+      "nombreAbr": "G.Málaga",
+      "sexo": "M",
+      "grupoPoliticoId": 9,
+      "grupoParlamentarioId": 8,
+      "desGpar": "No Agrupados",
+      "activo": true
+    },
+    {
+      "congresistaId": 73,
+      "dni": "21456255",
+      "nombre": "Marticorena Mendoza, Jorge Alfonso",
+      "nombreAbr": "J.Marticorena",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 35,
+      "desGpar": "Perú Bicentenario",
+      "activo": true
+    },
+    {
+      "congresistaId": 74,
+      "dni": "29384343",
+      "nombre": "Martínez Talavera, Pedro Edwin",
+      "nombreAbr": "P.Martínez",
+      "sexo": "M",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 1,
+      "desGpar": "Acción Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 75,
+      "dni": "22510256",
+      "nombre": "Medina Hermosilla, Elizabeth Sara",
+      "nombreAbr": "E.Medina",
+      "sexo": "F",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 34,
+      "desGpar": "Bloque Magisterial de Concertación Nacional",
+      "activo": true
+    },
+    {
+      "congresistaId": 76,
+      "dni": "29423212",
+      "nombre": "Medina Minaya, Esdras Ricardo",
+      "nombreAbr": "E.Medina",
+      "sexo": "M",
+      "grupoPoliticoId": 16,
+      "grupoParlamentarioId": 8,
+      "desGpar": "No Agrupados",
+      "activo": true
+    },
+    {
+      "congresistaId": 134,
+      "dni": "00434972",
+      "nombre": "Mita Alanoca, Isaac",
+      "nombreAbr": "I. Mita",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 77,
+      "dni": "16655831",
+      "nombre": "Montalvo Cubas, Segundo Toribio",
+      "nombreAbr": "S.Montalvo",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 78,
+      "dni": "16667146",
+      "nombre": "Monteza Facho, Silvia María",
+      "nombreAbr": "S.Monteza",
+      "sexo": "F",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 1,
+      "desGpar": "Acción Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 79,
+      "dni": "43328757",
+      "nombre": "Montoya Manrique, Jorge Carlos",
+      "nombreAbr": "J.Montoya",
+      "sexo": "M",
+      "grupoPoliticoId": 16,
+      "grupoParlamentarioId": 28,
+      "desGpar": "Renovación Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 80,
+      "dni": "07874562",
+      "nombre": "Morante Figari, Jorge Alberto",
+      "nombreAbr": "J.Morante",
+      "sexo": "M",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 81,
+      "dni": "05374449",
+      "nombre": "Mori Celis, Juan Carlos",
+      "nombreAbr": "J.Mori",
+      "sexo": "M",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 1,
+      "desGpar": "Acción Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 82,
+      "dni": "08911520",
+      "nombre": "Moyano Delgado, Martha Lupe",
+      "nombreAbr": "M.Moyano",
+      "sexo": "F",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 83,
+      "dni": "45209282",
+      "nombre": "Muñante Barrios, Alejandro",
+      "nombreAbr": "A.Muñante",
+      "sexo": "M",
+      "grupoPoliticoId": 16,
+      "grupoParlamentarioId": 28,
+      "desGpar": "Renovación Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 84,
+      "dni": "07737110",
+      "nombre": "Obando Morgan, Auristela Ana",
+      "nombreAbr": "A.Obando",
+      "sexo": "F",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 85,
+      "dni": "44144875",
+      "nombre": "Olivos Martínez, Vivian",
+      "nombreAbr": "V.Olivos",
+      "sexo": "F",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 86,
+      "dni": "10213424",
+      "nombre": "Pablo Medina, Flor Aidee",
+      "nombreAbr": "F.Pablo",
+      "sexo": "F",
+      "grupoPoliticoId": 9,
+      "grupoParlamentarioId": 8,
+      "desGpar": "No Agrupados",
+      "activo": true
+    },
+    {
+      "congresistaId": 87,
+      "dni": "10691398",
+      "nombre": "Padilla Romero, Javier Rommel",
+      "nombreAbr": "J.Padilla",
+      "sexo": "M",
+      "grupoPoliticoId": 16,
+      "grupoParlamentarioId": 28,
+      "desGpar": "Renovación Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 88,
+      "dni": "42134579",
+      "nombre": "Palacios Huamán, Margot",
+      "nombreAbr": "M.Palacios",
+      "sexo": "F",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 89,
+      "dni": "40858548",
+      "nombre": "Paredes Castro, Francis Jhasmina",
+      "nombreAbr": "F.Paredes",
+      "sexo": "F",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 34,
+      "desGpar": "Bloque Magisterial de Concertación Nacional",
+      "activo": true
+    },
+    {
+      "congresistaId": 90,
+      "dni": "01157063",
+      "nombre": "Paredes Fonseca, Karol Ivett",
+      "nombreAbr": "K.Paredes",
+      "sexo": "F",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 1,
+      "desGpar": "Acción Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 91,
+      "dni": "29299579",
+      "nombre": "Paredes Gonzales, Alex Antonio",
+      "nombreAbr": "A.Paredes",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 34,
+      "desGpar": "Bloque Magisterial de Concertación Nacional",
+      "activo": true
+    },
+    {
+      "congresistaId": 92,
+      "dni": "08185259",
+      "nombre": "Paredes Piqué, Susel Ana María",
+      "nombreAbr": "S.Paredes",
+      "sexo": "F",
+      "grupoPoliticoId": 9,
+      "grupoParlamentarioId": 33,
+      "desGpar": "Cambio Democrático - Juntos por el Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 93,
+      "dni": "20051359",
+      "nombre": "Pariona Sinche, Alfredo",
+      "nombreAbr": "A.Pariona",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 133,
+      "dni": "02743658",
+      "nombre": "Pazo Nunura, Jose Bernardo",
+      "nombreAbr": "J.Pazo",
+      "sexo": "M",
+      "grupoPoliticoId": 11,
+      "grupoParlamentarioId": 19,
+      "desGpar": "Somos Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 94,
+      "dni": "23017616",
+      "nombre": "Picón Quedo, Luis Raúl",
+      "nombreAbr": "L.Picón",
+      "sexo": "M",
+      "grupoPoliticoId": 2,
+      "grupoParlamentarioId": 18,
+      "desGpar": "Podemos Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 95,
+      "dni": "42699423",
+      "nombre": "Portalatino Ávalos, Kelly Roxana",
+      "nombreAbr": "K.Portalatino",
+      "sexo": "F",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 96,
+      "dni": "17549232",
+      "nombre": "Portero López, Hilda Marleny",
+      "nombreAbr": "H.Portero",
+      "sexo": "F",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 1,
+      "desGpar": "Acción Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 97,
+      "dni": "27361499",
+      "nombre": "Quiroz Barboza, Segundo Teodomiro",
+      "nombreAbr": "S.Quiroz",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 34,
+      "desGpar": "Bloque Magisterial de Concertación Nacional",
+      "activo": true
+    },
+    {
+      "congresistaId": 98,
+      "dni": "42611628",
+      "nombre": "Quispe Mamani, Wilson Rusbel",
+      "nombreAbr": "W.Quispe",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 99,
+      "dni": "29632775",
+      "nombre": "Quito Sarmiento, Bernardo Jaime",
+      "nombreAbr": "B.Quito",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 100,
+      "dni": "70094373",
+      "nombre": "Ramírez García, Tania Estefany",
+      "nombreAbr": "T.Ramirez",
+      "sexo": "F",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 101,
+      "dni": "44275599",
+      "nombre": "Revilla Villanueva, César Manuel",
+      "nombreAbr": "C.Revilla",
+      "sexo": "M",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 102,
+      "dni": "42377791",
+      "nombre": "Reyes Cam, Abel Augusto",
+      "nombreAbr": "A.Reyes",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 103,
+      "dni": "19877916",
+      "nombre": "Reymundo Mercado, Edgard Cornelio",
+      "nombreAbr": "E.Reymundo",
+      "sexo": "M",
+      "grupoPoliticoId": 14,
+      "grupoParlamentarioId": 33,
+      "desGpar": "Cambio Democrático - Juntos por el Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 104,
+      "dni": "42589181",
+      "nombre": "Rivas Chacara, Janet Milagros",
+      "nombreAbr": "J.Rivas",
+      "sexo": "F",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 105,
+      "dni": "42750152",
+      "nombre": "Robles Araujo, Silvana Emperatriz",
+      "nombreAbr": "S.Robles",
+      "sexo": "F",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 106,
+      "dni": "18032382",
+      "nombre": "Ruíz Rodríguez, Magaly Rosmery",
+      "nombreAbr": "M.Ruíz",
+      "sexo": "F",
+      "grupoPoliticoId": 2,
+      "grupoParlamentarioId": 2,
+      "desGpar": "Alianza Para el Progreso",
+      "activo": true
+    },
+    {
+      "congresistaId": 107,
+      "dni": "05414805",
+      "nombre": "Saavedra Casternoque, Hitler",
+      "nombreAbr": "H.Saavedra",
+      "sexo": "M",
+      "grupoPoliticoId": 11,
+      "grupoParlamentarioId": 19,
+      "desGpar": "Somos Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 108,
+      "dni": "05070188",
+      "nombre": "Salhuana Cavides, Eduardo",
+      "nombreAbr": "E.Salhuana",
+      "sexo": "M",
+      "grupoPoliticoId": 2,
+      "grupoParlamentarioId": 2,
+      "desGpar": "Alianza Para el Progreso",
+      "activo": true
+    },
+    {
+      "congresistaId": 109,
+      "dni": "16002918",
+      "nombre": "Sánchez Palomino, Roberto Helbert",
+      "nombreAbr": "R.Sánchez",
+      "sexo": "M",
+      "grupoPoliticoId": 14,
+      "grupoParlamentarioId": 33,
+      "desGpar": "Cambio Democrático - Juntos por el Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 110,
+      "dni": "43313696",
+      "nombre": "Soto Palacios, Wilson",
+      "nombreAbr": "W.Soto",
+      "sexo": "M",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 1,
+      "desGpar": "Acción Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 111,
+      "dni": "23901989",
+      "nombre": "Soto Reyes, Alejandro",
+      "nombreAbr": "A.Soto",
+      "sexo": "M",
+      "grupoPoliticoId": 2,
+      "grupoParlamentarioId": 2,
+      "desGpar": "Alianza Para el Progreso",
+      "activo": true
+    },
+    {
+      "congresistaId": 112,
+      "dni": "31031443",
+      "nombre": "Tacuri Valdivia, Germán Adolfo",
+      "nombreAbr": "G.Tacuri",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 34,
+      "desGpar": "Bloque Magisterial de Concertación Nacional",
+      "activo": true
+    },
+    {
+      "congresistaId": 113,
+      "dni": "41005490",
+      "nombre": "Taipe Coronado, María Elizabeth",
+      "nombreAbr": "M.Taipe",
+      "sexo": "F",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 27,
+      "desGpar": "Perú Libre",
+      "activo": true
+    },
+    {
+      "congresistaId": 114,
+      "dni": "09575873",
+      "nombre": "Tello Montes, Nivardo Edgar",
+      "nombreAbr": "N.Tello",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 34,
+      "desGpar": "Bloque Magisterial de Concertación Nacional",
+      "activo": true
+    },
+    {
+      "congresistaId": 115,
+      "dni": "05618705",
+      "nombre": "Torres Salinas, Rosio",
+      "nombreAbr": "R.Torres",
+      "sexo": "M",
+      "grupoPoliticoId": 2,
+      "grupoParlamentarioId": 2,
+      "desGpar": "Alianza Para el Progreso",
+      "activo": true
+    },
+    {
+      "congresistaId": 116,
+      "dni": "44886100",
+      "nombre": "Trigozo Reátegui, Cheryl",
+      "nombreAbr": "C.Trigozo",
+      "sexo": "M",
+      "grupoPoliticoId": 2,
+      "grupoParlamentarioId": 2,
+      "desGpar": "Alianza Para el Progreso",
+      "activo": true
+    },
+    {
+      "congresistaId": 117,
+      "dni": "45591954",
+      "nombre": "Tudela Gutiérrez, Adriana Josefina",
+      "nombreAbr": "A.Tudela",
+      "sexo": "F",
+      "grupoPoliticoId": 13,
+      "grupoParlamentarioId": 30,
+      "desGpar": "Avanza País - Partido de Integración Social",
+      "activo": true
+    },
+    {
+      "congresistaId": 118,
+      "dni": "24711696",
+      "nombre": "Ugarte Mamani, Jhakeline Katy",
+      "nombreAbr": "J.Ugarte",
+      "sexo": "F",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 8,
+      "desGpar": "No Agrupados",
+      "activo": true
+    },
+    {
+      "congresistaId": 119,
+      "dni": "25567150",
+      "nombre": "Valer Pinto, Héctor",
+      "nombreAbr": "H.Valer",
+      "sexo": "M",
+      "grupoPoliticoId": 16,
+      "grupoParlamentarioId": 19,
+      "desGpar": "Somos Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 120,
+      "dni": "32923902",
+      "nombre": "Varas Meléndez, Elías Marcial",
+      "nombreAbr": "E.Varas",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 35,
+      "desGpar": "Perú Bicentenario",
+      "activo": true
+    },
+    {
+      "congresistaId": 121,
+      "dni": "01088231",
+      "nombre": "Vásquez Vela, Lucinda",
+      "nombreAbr": "L.Vásquez",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 34,
+      "desGpar": "Bloque Magisterial de Concertación Nacional",
+      "activo": true
+    },
+    {
+      "congresistaId": 122,
+      "dni": "40242430",
+      "nombre": "Ventura Ángel, Héctor José",
+      "nombreAbr": "H.Ventura",
+      "sexo": "M",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 123,
+      "dni": "42843414",
+      "nombre": "Vergara Mendoza, Elvis Hernán",
+      "nombreAbr": "E.Vergara",
+      "sexo": "M",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 1,
+      "desGpar": "Acción Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 124,
+      "dni": "43287528",
+      "nombre": "Williams Zapata, José Daniel",
+      "nombreAbr": "J.Williams",
+      "sexo": "M",
+      "grupoPoliticoId": 13,
+      "grupoParlamentarioId": 30,
+      "desGpar": "Avanza País - Partido de Integración Social",
+      "activo": true
+    },
+    {
+      "congresistaId": 126,
+      "dni": "10806296",
+      "nombre": "Yarrow Lumbreras, Norma Martina",
+      "nombreAbr": "N.Yarrow",
+      "sexo": "F",
+      "grupoPoliticoId": 16,
+      "grupoParlamentarioId": 30,
+      "desGpar": "Avanza País - Partido de Integración Social",
+      "activo": true
+    },
+    {
+      "congresistaId": 127,
+      "dni": "01327194",
+      "nombre": "Zea Choquechambi, Oscar",
+      "nombreAbr": "O.Zea",
+      "sexo": "M",
+      "grupoPoliticoId": 15,
+      "grupoParlamentarioId": 34,
+      "desGpar": "Bloque Magisterial de Concertación Nacional",
+      "activo": true
+    },
+    {
+      "congresistaId": 128,
+      "dni": "07026029",
+      "nombre": "Zeballos Aponte, Jorge Arturo",
+      "nombreAbr": "J.Zeballos",
+      "sexo": "M",
+      "grupoPoliticoId": 16,
+      "grupoParlamentarioId": 28,
+      "desGpar": "Renovación Popular",
+      "activo": true
+    },
+    {
+      "congresistaId": 129,
+      "dni": "02417724",
+      "nombre": "Zeballos Madariaga, Carlos Javier",
+      "nombreAbr": "C.Zeballos",
+      "sexo": "M",
+      "grupoPoliticoId": 1,
+      "grupoParlamentarioId": 18,
+      "desGpar": "Podemos Perú",
+      "activo": true
+    },
+    {
+      "congresistaId": 130,
+      "dni": "02726999",
+      "nombre": "Zeta Chunga, Cruz Maria",
+      "nombreAbr": "C.Zeta",
+      "sexo": "F",
+      "grupoPoliticoId": 4,
+      "grupoParlamentarioId": 5,
+      "desGpar": "Fuerza Popular",
+      "activo": true
+    }
+  ]
+}

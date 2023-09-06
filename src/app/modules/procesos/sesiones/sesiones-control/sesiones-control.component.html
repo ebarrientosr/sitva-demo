@@ -1,0 +1,139 @@
+<p-card header="Control Sesión">
+  <p-table
+    [value]="temas"
+    responsiveLayout="stack"
+    style="display: block; margin: -0.75rem -0.75rem -1.5rem"
+  >
+    <ng-template pTemplate="caption">
+      Temas
+      <div style="margin: 0.75rem -0.75rem -0.75rem">
+        <p-toolbar class="toolbar-in-card">
+          <div class="p-toolbar-group-start">
+            <p-button
+              label="Nueva Tema"
+              icon="pi pi-plus-circle"
+              class="mr-2"
+              styleClass="p-button-danger p-button-sm"
+              (click)="nuevoTemaDialogVisible = !nuevoTemaDialogVisible"
+            ></p-button>
+          </div>
+        </p-toolbar>
+      </div>
+    </ng-template>
+    <ng-template pTemplate="header">
+      <tr>
+        <th>N°</th>
+        <th>Descripción</th>
+        <th>Estado</th>
+        <th></th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-row>
+      <tr>
+        <td>{{ row.orden }}</td>
+        <td>{{ row.descripcion }}</td>
+        <td>{{ row.estado }}</td>
+        <td>
+          <p-button
+            icon="pi pi-ellipsis-v"
+            styleClass="p-button-text p-button-sm"
+          ></p-button>
+        </td>
+      </tr>
+    </ng-template>
+
+    <ng-template pTemplate="emptymessage">
+      <tr>
+        <td colspan="4">No se encontraron resultados</td>
+      </tr>
+    </ng-template>
+  </p-table>
+</p-card>
+
+<p-dialog
+  header="Nuevo Tema"
+  [(visible)]="nuevoTemaDialogVisible"
+  [modal]="true"
+  [style]="{ 'max-width': '800px' }"
+>
+  <div class="mb-2">
+    <p-checkbox
+      formControlName="city"
+      value="New York"
+      inputId="ny"
+    ></p-checkbox>
+    <label for="ny" class="ml-2">Vincular tema agenda</label>
+  </div>
+
+  <div>
+    <p-table
+    [value]="temas"
+    responsiveLayout="stack"
+    style="display: block; margin: 0rem -1.25rem"
+  >
+    <ng-template pTemplate="caption">
+      Temas de agenda
+      <div style="margin: 0.75rem -0.75rem -0.75rem">
+        <p-toolbar class="toolbar-in-card">
+          <div class="p-toolbar-group-start">
+            <span class="p-input-icon-left">
+              <i class="pi pi-search"></i>
+              <input type="text" pInputText class="w-full" />
+          </span>
+          </div>
+        </p-toolbar>
+      </div>
+    </ng-template>
+    <ng-template pTemplate="header">
+      <tr>
+        <th>N°</th>
+        <th>Descripción</th>
+        <th>Estado</th>
+        <th></th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-row>
+      <tr>
+        <td>{{ row.orden }}</td>
+        <td>{{ row.descripcion }}</td>
+        <td>{{ row.estado }}</td>
+        <td>
+          <p-button
+            icon="pi pi-ellipsis-v"
+            styleClass="p-button-text p-button-sm"
+          ></p-button>
+        </td>
+      </tr>
+    </ng-template>
+
+    <ng-template pTemplate="emptymessage">
+      <tr>
+        <td colspan="4">No se encontraron resultados</td>
+      </tr>
+    </ng-template>
+  </p-table>
+  </div>
+
+
+  <div>
+    <span class="p-float-label">
+      <textarea rows="5" cols="30" pInputTextarea></textarea>
+      <label htmlFor="agenda-filter">Descripción</label>
+    </span>
+  </div>
+
+  <ng-template pTemplate="footer">
+    <p-button
+      icon="pi pi-save"
+      (click)="nuevoTemaDialogVisible = false"
+      label="Guardar"
+      styleClass="p-button-danger"
+    ></p-button>
+    <p-button
+      icon="pi pi-times"
+      (click)="nuevoTemaDialogVisible = false"
+      label="Cancelar"
+      styleClass="p-button-text"
+    ></p-button>
+  </ng-template>
+</p-dialog>
