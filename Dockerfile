@@ -1,6 +1,4 @@
-FROM registry.access.redhat.com/ubi8/nodejs-18-minimal:1
-WORKDIR /app
+FROM quay.io/app-sre/ubi8-nodejs-16
+WORKDIR /opt/app-root/src
 COPY . .
 RUN npm install
-RUN npm run build
-
