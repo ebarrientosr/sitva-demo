@@ -1,4 +1,4 @@
-FROM quay.io/calico/node:latest
+FROM ubi8/nodejs-16
 LABEL authors="ebarrientosr"
 
 WORKDIR /app
